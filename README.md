@@ -7,5 +7,5 @@ npm i @stepanenko3/js-utils
 
 # or
 
-npm i @stepanenko3/js-utils
+yarn add @stepanenko3/js-utils
 ```
