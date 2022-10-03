@@ -12,6 +12,32 @@
   resolved "https://registry.yarnpkg.com/@esbuild/linux-loong64/-/linux-loong64-0.15.10.tgz#78a42897c2cf8db9fd5f1811f7590393b77774c7"
   integrity sha512-w0Ou3Z83LOYEkwaui2M8VwIp+nLi/NA60lBLMvaJ+vXVMcsARYdEzLNE7RSm4+lSg4zq4d7fAVuzk7PNQ5JFgg==
 
+"@stepanenko3/js-toast@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@stepanenko3/js-toast/-/js-toast-1.0.0.tgz#08156625960fe83266ef07c16c8b56cc20fd3a04"
+  integrity sha512-NHme7EF/yxaL51fvhWxeMRH4IeZby4HLXUbEDNuV+RUcyHL1qTDYVz1TZ1K6ZpzGUwg8IUmq6oaap1EIjFzOIg==
+  dependencies:
+    "@stepanenko3/js-utils" "^1.0.6"
+
+"@stepanenko3/js-utils@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@stepanenko3/js-utils/-/js-utils-1.0.6.tgz#4b49164d2a3da84f32008dfa7170674a4e505f17"
+  integrity sha512-pH0VfKtOQxLw8XeLlAb4f2B7HSio7SZo7vi6Xk0wwRVJlS9N/NlknAHKp1pAEylRhBp6UZSY5JuH1x3xRtv6OQ==
+  dependencies:
+    "@types/body-scroll-lock" "^3.1.0"
+    "@types/fg-loadcss" "^3.1.1"
+    "@types/form-serialize" "^0.7.2"
+    "@types/js-cookie" "^3.0.2"
+    "@types/nprogress" "^0.2.0"
+    "@types/scroll" "^3.0.1"
+    axios "^0.27.2"
+    body-scroll-lock "^3.1.5"
+    fg-loadcss "^3.1.0"
+    form-serialize "^0.7.2"
+    js-cookie "^3.0.1"
+    nprogress "^0.2.0"
+    scroll "^3.0.1"
+
 "@types/body-scroll-lock@^3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@types/body-scroll-lock/-/body-scroll-lock-3.1.0.tgz#435f6abf682bf58640e1c2ee5978320b891970e7"

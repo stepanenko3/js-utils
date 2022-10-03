@@ -3,7 +3,7 @@
     "description": "Javascript and Typescript utils",
     "author": "Artem Stepanenko <stpnnk.artem@gmail.com>",
     "license": "MIT",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/stepanenko3/js-utils.git"
@@ -19,19 +19,20 @@
         "preview": "vite preview"
     },
     "dependencies": {
+        "@stepanenko3/js-toast": "^1.0.0",
+        "@types/body-scroll-lock": "^3.1.0",
+        "@types/fg-loadcss": "^3.1.1",
+        "@types/form-serialize": "^0.7.2",
+        "@types/js-cookie": "^3.0.2",
+        "@types/nprogress": "^0.2.0",
+        "@types/scroll": "^3.0.1",
         "axios": "^0.27.2",
         "body-scroll-lock": "^3.1.5",
-        "scroll": "^3.0.1",
         "fg-loadcss": "^3.1.0",
         "form-serialize": "^0.7.2",
         "js-cookie": "^3.0.1",
         "nprogress": "^0.2.0",
-        "@types/body-scroll-lock": "^3.1.0",
-        "@types/scroll": "^3.0.1",
-        "@types/fg-loadcss": "^3.1.1",
-        "@types/form-serialize": "^0.7.2",
-        "@types/js-cookie": "^3.0.2",
-        "@types/nprogress": "^0.2.0"
+        "scroll": "^3.0.1"
     },
     "devDependencies": {
         "typescript": "^4.6.4",
